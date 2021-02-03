@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* background: url(sm.jpg) no-repeat center center fixed; */
+  font-family:Arial, Helvetica, sans-serif;
+}
+.box{
+  background: hsl(286, 65%, 83%);
+  top:50%;
+  left:50%;
+  position: absolute;  
+  transform: translate(-50%,-50%);
+  box-sizing: content-box;
+  padding: 50px 30px;
+}
+.sl{
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-family:  'Arial Narrow Bold', sans-serif;
+  
+}
+#li{
+  text-align: center;
+  font-size: large;
+  color:brown;
+}
+#btn1{
+  text-align: center;
+  bottom: 10%;
+  height: 20px;
+}lk/
+h6{
+  color: red;
+}
+h1{
+  font-style: inherit;
+  font-family: Verdana,  Tahoma, sans-serif;
+  text-align: center;
+  color: red;
+}
+.p{
+  text-align: right 30%;
+  color: rgba(0, 0, 0, 0.226);
+}
+input[type="text"],input[type="email"],input[type="password"]
+{
+  border:black;
+  font: size 20px;
+  height:20px;
+  color: black;
+  background:white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left 300%;
+}
+input[type="submit"]
+{
+  border: none;
+  outline:none;
+  background: rgb(37, 37, 233);
+  color: aliceblue;
+  font-size: 20px;
+  border-radius:20px;
+  height: 30px;
+  left: 50%;
+}
+input[type="submit"]:hover
+{
+  cursor: pointer;
+  background:yellow;
+  color:blue
+}
+a{
+  font-size: 20px;
+  color: red;
+}
+a:hover
+{
+  color: blue; 
+}
